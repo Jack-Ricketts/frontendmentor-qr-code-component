@@ -1,13 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
 .attribution { 
     font-size: 11px; 
     text-align: center; 
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
-*{
-    box-sizing: border-box;
-    margin: 0;
 }
 body {
     height: 100vh;
@@ -23,68 +23,33 @@ img {
     padding: 15px;
     display: flex;
 }
-@media (max-width: 375px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 15px;
-        margin: auto;
-        height: 492px;
-        width: 309px;
-    }
-    .container-text{
-        margin: 15px 25px;
-    }
-    .title{
-        font-family: 'Outfit', sans-serif;
-        font-weight: 700;
-        font-size: 22px;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        color: rgb(53, 53, 53);
-    }
-    .description{
-        font-family: 'Outfit', sans-serif;
-        font-weight: 400;
-        color: hsl(220, 15%, 55%);
-        font-size: 15px;
-        padding: 20px 0;
-        margin: 0;
-        text-align: center;
-    }
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    margin: auto;
+    height: 492px;
+    width: 309px;
 }
-
-@media (min-width: 376px){
-    .container{
-        display: flex;
-        flex-direction: column;
-        background-color: hsl(0, 0%, 100%);
-        border-radius: 15px;
-        margin: auto;
-        height: 492px;
-        width: 309px;
-    }
-    .container-text{
-        margin: 15px 25px;
-    }
-    .title{
-        font-family: 'Outfit', sans-serif;
-        font-weight: 700;
-        font-size: 22px;
-        padding: 0;
-        margin: 0;
-        text-align: center;
-        color: rgb(53, 53, 53);
-    }
-    .description{
-        font-family: 'Outfit', sans-serif;
-        font-weight: 400;
-        color: hsl(220, 15%, 55%);
-        font-size: 15px;
-        padding: 20px 0;
-        margin: 0;
-        text-align: center;
-    }
+.container-text{
+    margin: 15px 25px;
+}
+.title{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    color: rgb(53, 53, 53);
+}
+.description{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+    padding: 20px 0;
+    margin: 0;
+    text-align: center;
 }
